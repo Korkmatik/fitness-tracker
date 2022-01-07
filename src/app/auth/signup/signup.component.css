@@ -2,11 +2,6 @@ form {
     margin: 2em;
 }
 
-form button {
-    margin-top: 1.4em;
-}
-
 mat-form-field {
     width: 400px;
-    margin-bottom: 1.2em;
 }
