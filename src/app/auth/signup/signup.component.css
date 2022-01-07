@@ -1,0 +1,7 @@
+form {
+    margin: 2em;
+}
+
+mat-form-field {
+    width: 400px;
+}
