@@ -2,6 +2,14 @@ form {
     margin: 2em;
 }
 
+form button {
+    margin-top: 2em;
+}
+
 mat-form-field {
     width: 400px;
+}
+
+#password {
+    margin-top: 1.5em;
 }
