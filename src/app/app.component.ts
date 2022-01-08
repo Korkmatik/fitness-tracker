@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { Component, NgModule, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,8 @@ import { Component, NgModule } from '@angular/core';
 })
 export class AppComponent {
   title = 'fitness-tracker';
+
+  onToggle() {
+
+  }
 }
