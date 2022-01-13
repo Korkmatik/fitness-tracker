@@ -17,6 +17,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatSelectModule} from '@angular/material/select'; 
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'; 
 import {MatDialogModule} from '@angular/material/dialog'; 
+import {MatTableModule} from '@angular/material/table'; 
 
 import { SignupComponent } from './auth/signup/signup.component';
 import { LoginComponent } from './auth/login/login.component';
@@ -72,6 +73,7 @@ import { TrainingService } from './training/training.service';
     MatSelectModule,
     MatProgressSpinnerModule,
     MatDialogModule,
+    MatTableModule,
   ],
   providers: [AuthService, TrainingService],
   bootstrap: [AppComponent],
